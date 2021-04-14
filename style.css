@@ -1052,22 +1052,29 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .img-responsive{
+        display:block;
+        margin:0 auto;
+    }
 }
 
 .title{
     font-size: 23px;
-    width: 613px;
+    max-width: 613px;
     margin: auto;
+    word-wrap: break-word;
 }
 
 .title_var{
-    width: 476px;
+    max-width: 476px;
+    word-wrap: break-word;
 }
 
-.bloc_quote{
+.bloc-quote{
     color: #575757;
-    width: 562px;
-    margin:0 20%;
+    max-width: 562px;
+    margin: auto;
+    word-wrap: break-word;
 }
 
 .quote{
