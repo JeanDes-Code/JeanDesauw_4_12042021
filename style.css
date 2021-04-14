@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    z-index: 0;
 }
 
 .b-parallax {
@@ -133,7 +134,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #593322;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +151,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #593322;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -779,7 +780,7 @@ h4 {
 }
 
 .tc-white-var {
-    color: #ffe253!important;
+    color: white!important;
 }
 
 .tc-true-white {
@@ -1071,7 +1072,7 @@ h4 {
 }
 
 .bloc-quote{
-    color: #575757;
+    color: black;
     max-width: 562px;
     margin: auto;
     word-wrap: break-word;
@@ -1081,16 +1082,22 @@ h4 {
     font-size: 20px;
     font-style: italic;
     font-weight: 200;
+    color:black;
 }
 
 .auteur{
     font-size: 14px;
+    color:black;
 }
 
 .auteur p {
     margin: unset;
 }
 
-.cta-hover {
-    background: transparent;
+.footer-color {
+    color: black!important;
+}
+
+footer a {
+    color:black!important;
 }
