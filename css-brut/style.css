@@ -363,7 +363,7 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
+@media only screen and (width < 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -841,7 +841,7 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
-@media (max-width: 1024px) {
+@media only screen and (width < 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
@@ -855,7 +855,7 @@ h4 {
     }
 }
 
-@media (max-width: 992px) and (min-width: 768px) {
+@media only screen and (width < 992px) and (width > 768px) {
     .navbar .nav {
         max-width: 80%
     }
@@ -864,19 +864,19 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (width > 768px) and (width < 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (width > 1024px) and (width < 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media (max-width: 991px) {
+@media only screen and (width < 991px) {
     .container {
         width: 100%;
     }
@@ -888,10 +888,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -900,12 +896,10 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
-@media (max-width: 767px) {
+@media only screen and (width < 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1044,14 +1038,14 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media only screen and (width < 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-@media (max-width: 767px) {
+@media only screen and (width < 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
