@@ -93,7 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-    z-index: 0;
+    z-index:0;
 }
 
 .b-parallax {
@@ -702,7 +702,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 50px auto;
 }
 
 h2 {
