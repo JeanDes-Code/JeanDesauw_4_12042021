@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-	
+	<link rel="stylesheet preload" as="style" href="./css/bootstrap.css">
+	<link rel="stylesheet preload" as="style" href="style.css">
+	<link rel="stylesheet preload" as="style" href="./css/font-awesome.css">
+	<link rel="stylesheet preload" as="style" href="./css/et-line.css">
     
 	<script defer src="./js/jquery-2.1.0.js"></script>
 	<script defer src="./js/bootstrap.js"></script>
@@ -80,25 +79,25 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate>
 					<div class="form-group">
-						<label for="Nom">
+						<label>
 							Nom
 						<input id="name" name="nom" class="form-control" required />
 						</label>
 					</div>
 					<div class="form-group">
-						<label for="email">
+						<label>
 							Adresse email
 						<input id="email" name="email" class="form-control" type="email" required />
 						</label>
 					</div>
 					<div class="form-group">
-						<label for="provenance">
+						<label>
 							Comment nous avez-vous connu ?
 						<input class="form-control" name="provenance" type="email" required id="input_504" />
 						</label>	
 					</div>
 					<div class="form-group">
-						<label for="projet">
+						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						<textarea id="message" name="projet" class="form-control" rows="4" cols="50" required></textarea>
 						</label>
